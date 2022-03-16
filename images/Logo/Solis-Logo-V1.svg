@@ -1,0 +1,12 @@
+<svg id="Main" xmlns="http://www.w3.org/2000/svg" width="2000" height="2000" viewBox="0 0 2000 2000">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #f2af29;
+        stroke: #474747;
+        stroke-width: 30px;
+      }
+    </style>
+  </defs>
+  <circle id="Solis" class="cls-1" cx="1000.001" cy="1000.001" r="550.439"/>
+</svg>

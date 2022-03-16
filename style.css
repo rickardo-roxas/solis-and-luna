@@ -24,6 +24,14 @@ h1 {
     letter-spacing: 0.1rem;
 }
 
+/* Background colors */
+.honeyYellow {
+    background-color: #F2AF29;
+}
+
+.eggshell {
+    background-color: #E0E0CE;
+}
 
  /* Header */
 
@@ -35,6 +43,10 @@ header {
     min-height: 8vh;
     z-index: 9999;
     background-color: #474747;
+}
+
+header a{
+    align-items: center;
 }
 
 .logo {
@@ -60,8 +72,22 @@ header {
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover
+    background-size: cover;
+}
 
+.parallax2 {
+    background-image: url("images/patterns/ross-elder-uXQVNkam3hE-unsplash.jpg");
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 40%;
+}
+
+/* divider */
+.divider {
+    position: relative;
 }
 
 /* General styling options */
@@ -74,7 +100,7 @@ header {
 .center {
     align-items: center;
     align-content: center;
-
+    text-align: center;
 }
 
 .responsive {
@@ -92,4 +118,20 @@ header {
     display: grid;
     grid-template-columns: 2fr 0.5fr 0.2fr 1fr;
     column-gap: 3%;
+    align-items: center;
+    text-align: center;
+}
+
+.📦4️⃣➡️ {
+    display: grid;
+    grid-template-columns: 1fr 0.2fr 0.5fr 2fr;
+    column-gap: 3%;
+    align-items: center;
+    text-align: center;
+}
+
+/* Section 2 */
+.loveLetter {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
 }
